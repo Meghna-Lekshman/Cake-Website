@@ -1,0 +1,76 @@
+body
+{
+	background-color: pink;
+	color: gray;
+	text-align: center;
+}
+
+h1
+{
+	font-family: Courier;
+}
+table.center 
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#main{
+	position: center;
+	color: beige;
+	text-shadow: 1px 2px 3px brown;
+	padding: 10px 15px;
+	font-size: 1.5em;
+}
+
+#menu{
+	position: none;
+	z-index: 5;
+	background-color: #222;
+	height: 100vh;
+	width: 150px;
+}
+
+ul li{
+	padding: 15px 15px;
+	text-align: center;
+	
+	color: #fff;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
